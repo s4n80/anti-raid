@@ -13,7 +13,7 @@ client.login(token)
 
   
 client.on('ready', () => {
-    client.user.setActivity('s?config', { type: 'PLAYING' });
+    client.user.setActivity('s?config It's time to secure your server!', { type: 'PLAYING' });
     console.clear();
  
   console.log('\n\x1b[32m%s\x1b[0m', `          $[INFO]: Logged on ${client.user.tag}`);  
